@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+
+        .boss01{
+        }
+
+
+
+        *{
+            /*去除所有盒子的边距*/
+            margin: 0;
+            padding: 0;
+            /*所有文本修饰为默认*/
+            text-decoration: none;
+            /*去除所有列表标记*/
+            list-style: none;
+        }
+
+
+        body{
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        .HeaderImg{
+            margin-top: 1%;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-image: linear-gradient(to right,#030F1D  ,#07182C );
+
+        }
+
+
+        .HeaderTR{
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .minecraftimg{
+            margin-left: 10%;
+        }
+
+        .LAELIOAimg{
+            padding-left: 500%;
+        }
+
+
+
+
+        .LAELIOA{
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            transition: color 0.5s;
+        }
+
+        .LAELIOA:hover {
+            font-size: 20px;
+            color: #4b9bff;
+            font-weight: bold;
+        }
+
+
+        h1{
+            margin: auto;
+            text-align: center;
+            font-size: 150px;
+            color: white;
+            font-weight: bolder;
+            animation: h1name 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes h1name {
+            0%{
+                color: #4b9bff;
+            }
+            25%{
+                color: white;
+            }
+            50%{
+                color: #4b9bff;
+            }
+            75%{
+                color: white;
+            }
+            100%{
+                color: #4b9bff;
+            }
+
+
+        }
+
+
+        h2{
+            margin: auto;
+            text-align: center;
+            font-size: 80px;
+            color: white;
+        }
+        h3{
+            margin: auto;
+            text-align: center;
+            font-size: 80px;
+            color: white;
+        }
+
+
+        /*导航栏*/
+        .navigationbar{
+            width: 900px;
+            height: 10px;
+            background-color: inherit;
+            margin-left: 10px;
+        }
+
+        .list{
+            float: left;
+            width: 150px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        /*[导航栏]超链接属性*/
+        .navlist a{
+            color: #FFFFFF;
+            font-size: 18px;
+            display: block;
+            font-weight: bolder;
+        }
+
+        /*[导航栏]超链接鼠标放置属性*/
+        .navlist a:hover{
+            color: #4b9bff;
+            border-right: 1px solid #4b9bff;
+            border-left: 1px solid #4b9bff;
+            background-color: #041225;
+            transition: color 0.5s;
+        }
+
+        /*[推荐资源]下拉栏属性*/
+        .dorplist{
+            background-color: #73a1e8;
+            display: none;
+        }
+
+
+
+        /*登录栏*/
+        .denlu{
+            margin-left:-1%;
+            width: 700px;
+            height: 30px;
+            text-align: right;
+            font-weight: bold;
+            border: #4b9bff;
+
+        }
+        /*登录注册字体属性*/
+        .denlufont{
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        .denlufont:hover{
+            font-size: 15px;
+            color: #525252;
+            text-align: center;
+        }
+
+
+        .LAELIOApng{
+            margin: auto;
+            padding-top: 205px;
+            /*background-image:  url("../img/LA03.jpg");*/
+            background-color: rgba(58, 58, 58, 0.5);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+
+        .dontai{
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            /*backdrop-filter: blur(10px);  模糊*/
+        }
+
+        .dontaifont01{
+            padding-bottom: 440px;
+        }
+
+
+        .gobutton{
+            width: 300px;
+            height: 70px;
+            background-color: inherit;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 20px;
+            font-size: 20px;
+            border: 3px solid  white;
+            transition: border 0.5s;
+        }
+
+        .gobutton:hover{
+            width: 300px;
+            height: 70px;
+            background-color: inherit;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 20px;
+            font-size: 20px;
+            border:3px solid #4b9bff;
+            transition: border 0.5s;
+        }
+
+        .hr01{
+           height: 30px;
+           background-color: #4b9bff;
+            margin-top: 225px;
+            border-color: #4b9bff;
+        }
+
+        .LAELIOApngTABLE{
+            margin: auto;
+        }
+
+        .LAELIOAimg2{
+            width: 1080px;
+            height: 560px;
+            animation: img2 18s;
+            background-image: url("../img/05.jpg");
+            background-size: cover;
+            border: 1px solid white;
+
+        }
+
+
+
+
+        .boss02{
+            /*background: url("../img/boos02.png");*/
+            background-size: revert;
+           }
+
+
+
+
+        .LAELIOApng01{
+            margin: auto;
+            padding-top: 100px;
+            /*background-image:  url("../img/LAELIOAimg02.jpg");*/
+            background-color: rgba(58, 58, 58, 0.5);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+
+        .LAELIOAimg3{
+            width: 1080px;
+            height: 560px;
+            animation: img3 18s;
+            background-image: url("../img/02.jpg");
+            background-size: cover;
+            border: 1px solid white;
+        }
+
+
+        .LAELIOAimg3YUAN{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            float: left;
+            margin-left: 30px;
+            border: 5px solid white;
+            transition: all 0.5s;
+        }
+
+        .LAELIOAimg3YUAN:hover{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #4b9bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            transition: all 0.5s;
+            float: left;
+            backdrop-filter: blur(20px);
+
+        }
+
+
+        .LAELIOAimg3yuan{
+            padding-top: 100px;
+
+        }
+
+        .mo{
+            backdrop-filter: blur(20px);
+        }
+
+        .mofont01{
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+            text-align: left;
+        }
+        .mofont02{
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .mobutton{
+            width: 200px;
+            height: 60px;
+            background-color: #4b9bff;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 10px;
+            font-size: 20px;
+            border: #4b9bff;
+
+        }
+
+        .mobutton:hover{
+            width: 200px;
+            height: 60px;
+            background-color: white;
+            color: #464646;
+            font-weight: bold;
+            transition: color 0.5s;
+        }
+
+
+
